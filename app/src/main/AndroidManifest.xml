@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="starlabs.noticeboard">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.STORAGE"/>
+
+
+
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/nb"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/nb"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
+
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+
+               <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".MainActivity"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+        <activity
+            android:name=".NoticeActivity"
+            android:label="Notification" />
+
+        <activity android:name=".RegisterActivity"></activity>
+
+        <activity android:name=".AddActivity"
+            android:label="Add Notice"/>
+        <activity android:name=".CsActivity"
+            android:label="CSE Notice"/>
+        <activity android:name=".EcActivity"
+            android:label="ECE Notice"/>
+        <activity android:name=".MeActivity"
+            android:label="ME Notice"/>
+        <activity android:name=".CeActivity"
+            android:label="CE Notice"/>
+        <activity android:name=".EeActivity"
+            android:label="EE Notice"/>
+        <activity android:name=".ResetActivity"></activity>
+    </application>
+
+</manifest>

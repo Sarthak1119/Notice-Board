@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="starlabs.noticeboard.EeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#FFCDD2"
+        android:id="@+id/ls_ee">
+
+    </ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="150dp"
+        android:textSize="15dp"
+        android:id="@+id/txt_img"
+        android:textAlignment="center"
+        android:text="Images"
+        android:background="@color/colorPrimary"
+        android:textColor="#000"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#FFCDD2"
+        android:id="@+id/ls_ee_img"
+        android:layout_marginTop="170dp"
+        android:smoothScrollbar="true">
+
+    </ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="320dp"
+        android:text="Pdf"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:id="@+id/txt_pdf"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFCDD2"
+        android:layout_marginTop="345dp"
+        android:id="@+id/ls_ee_pdf">
+    </ListView>
+
+</FrameLayout>

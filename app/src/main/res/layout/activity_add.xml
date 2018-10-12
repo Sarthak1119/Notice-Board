@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+    <Button
+        android:id="@+id/btn_cs"
+        app:layout_widthPercent="45%"
+        app:layout_heightPercent="25%"
+        android:textSize="25dp"
+        android:text="Computer Science"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#f7f5f5"
+        android:background="@drawable/cs"/>
+
+    <Button
+        android:id="@+id/btn_ec"
+        android:layout_alignLeft="@+id/btn_ce"
+        android:layout_alignStart="@+id/btn_ce"
+        android:layout_alignTop="@+id/btn_cs"
+        android:background="@drawable/ec"
+        android:text="Electronics"
+        android:textColor="#f7f5f5"
+        android:textSize="25dp"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="45%" />
+
+    <Button
+        android:id="@+id/btn_me"
+        android:layout_alignTop="@+id/btn_ce"
+        android:layout_toLeftOf="@+id/btn_ce"
+        android:layout_toStartOf="@+id/btn_ce"
+        android:background="@drawable/mech"
+        android:text="Mechanical"
+        android:textColor="#f7f5f5"
+        android:textSize="25dp"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="45%" />
+
+    <Button
+        android:id="@+id/btn_ce"
+        app:layout_widthPercent="45%"
+        app:layout_heightPercent="25%"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/btn_cs"
+        android:layout_below="@+id/btn_ec"
+        android:textSize="25dp"
+        android:background="@drawable/civil"
+        android:textColor="#f7f5f5"
+        android:text="Civil" />
+
+    <Button
+        android:id="@+id/btn_ee"
+        app:layout_widthPercent="45%"
+        app:layout_heightPercent="25%"
+        android:textSize="25dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btn_me"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/elec"
+        android:textColor="@color/white"
+        android:text="Electrical" />
+
+
+</android.support.percent.PercentRelativeLayout>

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "948962693977",
+    "firebase_url": "https://noticeboard-35b9a.firebaseio.com",
+    "project_id": "noticeboard-35b9a",
+    "storage_bucket": "noticeboard-35b9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948962693977:android:e25624acff8ff42e",
+        "android_client_info": {
+          "package_name": "starlabs.noticeboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948962693977-u9u1o70s1gumqpj4bl36v8dn4rr55rvl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "starlabs.noticeboard",
+            "certificate_hash": "5d2640a43758c9fc31e447c6141e135541512a5f"
+          }
+        },
+        {
+          "client_id": "948962693977-6lkuksc2glj3r7e92tn5ki15mjarsl2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "starlabs.noticeboard",
+            "certificate_hash": "8afa65c2cc7433cba81a4aa89a6ba40c093c01a7"
+          }
+        },
+        {
+          "client_id": "948962693977-hjkclfcsgk4u7t9622pr16mcrmsb8s4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCepLCh8Zc6fC65glbq2c-wFWta35HlU30"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948962693977-hjkclfcsgk4u7t9622pr16mcrmsb8s4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
